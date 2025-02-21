@@ -18,6 +18,7 @@ import Footer from "../Pages/Footer";
 import Contact from "../Pages/Contact";
 import Room_Booking from "../Pages/Room_Booking";
 import Confirmation from "../Pages/Confirmation";
+import Checkout from "../Pages/Checkout";
 
 
 const App = () => {
@@ -41,6 +42,7 @@ const App = () => {
         <Route path="contact" element={<Contact />}></Route>
         <Route path="room_booking" element={<Room_Booking />}></Route>
         <Route path="/confirmation" element={<Confirmation />}></Route>
+        <Route path="/checkout" element={<Checkout />}></Route>
     </Routes>
     <Footer />
     </BrowserRouter>

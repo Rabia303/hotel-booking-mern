@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 const Rooms_video = () => {
   return (
    <>
@@ -150,7 +151,8 @@ const Rooms_video = () => {
                   </div>
                 </div>
                 <div className="col-12 pt-4">
-                  <a className="booking-button" href="./src/search.html">book now</a>
+                  <Link to="/booking" className="booking-button">Book Now</Link>
+
                 </div>
               </div>
             </div>
@@ -176,7 +178,8 @@ const Rooms_video = () => {
             <div className="room-box-in">
               <h5 className>pool suite</h5>
               <p className="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-              <a className="mt-1 btn btn-primary" href="./src/rooms-gallery.html">book from 130$</a>
+              
+              <Link to="/rooms_gallery" className="mt-1 btn btn-primary">Book From 130$</Link>
               <div className="room-icons mt-4 pt-4">
                 <img src="./src/assets/img/5.svg" alt />
                 <img src="./src/assets/img/2.svg" alt />
@@ -196,11 +199,11 @@ const Rooms_video = () => {
               <i className="fa fa-star" />
               <i className="fa fa-star-o" />
             </div>
-            <img src="assets/img/room4.jpg" alt />
+            <img src="./src/assets/img/room4.jpg" alt />
             <div className="room-box-in">
               <h5 className>small room</h5>
               <p className="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-              <a className="mt-1 btn btn-primary" href="./src/rooms-gallery.html">book from 80$</a>
+              <Link to="/rooms_gallery" className="mt-1 btn btn-primary">Book From 130$</Link>
               <div className="room-icons mt-4 pt-4">
                 <img src="./src/assets/img/4.svg" alt />
                 <img src="./src/assets/img/2.svg" alt />
@@ -224,7 +227,7 @@ const Rooms_video = () => {
             <div className="room-box-in">
               <h5 className>Apartment</h5>
               <p className="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-              <a className="mt-1 btn btn-primary" href="./src/rooms-gallery.html">book from 110$</a>
+              <Link to="/rooms_gallery" className="mt-1 btn btn-primary">Book From 130$</Link>
               <div className="room-icons mt-4 pt-4">
                 <img src="./src/assets/img/5.svg" alt />
                 <img src="./src/assets/img/2.svg" alt />

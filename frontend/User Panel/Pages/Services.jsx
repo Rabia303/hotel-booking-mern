@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 const Services = () => {
   return (
     <>
@@ -150,7 +151,8 @@ const Services = () => {
             <div className="col-9 pt-4 pt-xl-0 pb-5 pb-xl-0 text-center">
               <h5 className>spa salon</h5>
               <p className="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-              <a className="mt-1 btn btn-primary" href="post.html">explore</a>
+              
+              <Link to="/explore" className="mt-1 btn btn-primary">Explore</Link>
             </div>
           </div>	
         </div>
@@ -161,7 +163,7 @@ const Services = () => {
             <div className="col-9 pt-4 pt-xl-0 pb-5 pb-xl-0 text-center">
               <h5 className>restaurant</h5>
               <p className="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-              <a className="mt-1 btn btn-primary" href="post.html">explore</a>
+              <Link to="/explore" className="mt-1 btn btn-primary">Explore</Link>
             </div>
           </div>
         </div>
@@ -182,7 +184,7 @@ const Services = () => {
             <div className="col-9 pt-4 pt-xl-0 pb-5 pb-xl-0 text-center">
               <h5 className>swimming pool</h5>
               <p className="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-              <a className="mt-1 btn btn-primary" href="post.html">explore</a>
+              <Link to="/explore" className="mt-1 btn btn-primary">Explore</Link>
             </div>
           </div>	
         </div>
@@ -193,7 +195,7 @@ const Services = () => {
             <div className="col-9 pt-4 pt-xl-0 pb-5 pb-xl-0 text-center">
               <h5 className>activities</h5>
               <p className="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-              <a className="mt-1 btn btn-primary" href="post.html">explore</a>
+              <Link to="/explore" className="mt-1 btn btn-primary">Explore</Link>
             </div>
           </div>
         </div>

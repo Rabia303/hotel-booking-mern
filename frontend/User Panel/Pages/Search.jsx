@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 const Search = () => {
   return (
     <>
@@ -36,7 +37,7 @@ const Search = () => {
                   <div className="room-box-in">
                     <h5 className>pool suite</h5>
                     <p className="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-                    <a className="mt-1 btn btn-primary" href="rooms-gallery.html">book from 130$</a>
+                    <Link to="/rooms_gallery" className="mt-1 btn btn-primary">Book From 130$</Link>
                     <div className="room-icons mt-4 pt-4">
                       <img src="./src/assets/img/5.svg" alt />
                       <img src="./src/assets/img/2.svg" alt />
@@ -60,7 +61,7 @@ const Search = () => {
                   <div className="room-box-in">
                     <h5 className>small room</h5>
                     <p className="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-                    <a className="mt-1 btn btn-primary" href="rooms-gallery.html">book from 80$</a>
+                    <Link to="/rooms_gallery" className="mt-1 btn btn-primary">Book From 80$</Link>
                     <div className="room-icons mt-4 pt-4">
                       <img src="./src/assets/img/4.svg" alt />
                       <img src="./src/assets/img/2.svg" alt />
@@ -84,7 +85,7 @@ const Search = () => {
                   <div className="room-box-in">
                     <h5 className>Apartment</h5>
                     <p className="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-                    <a className="mt-1 btn btn-primary" href="./src/rooms-gallery.html">book from 110$</a>
+                    <Link to="/rooms_gallery" className="mt-1 btn btn-primary">Book From 110$</Link>
                     <div className="room-icons mt-4 pt-4">
                       <img src="./src/assets/img/5.svg" alt />
                       <img src="./src/assets/img/2.svg" alt />
@@ -108,7 +109,7 @@ const Search = () => {
                   <div className="room-box-in">
                     <h5 className>big Apartment</h5>
                     <p className="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-                    <a className="mt-1 btn btn-primary" href="./src/rooms-gallery.html">book from 160$</a>
+                    <Link to="/rooms_gallery" className="mt-1 btn btn-primary">Book From 160$</Link>
                     <div className="room-icons mt-4 pt-4">
                       <img src="./src/assets/img/5.svg" alt />
                       <img src="./src/assets/img/2.svg" alt />
@@ -132,7 +133,7 @@ const Search = () => {
                   <div className="room-box-in">
                     <h5 className>Apartment</h5>
                     <p className="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-                    <a className="mt-1 btn btn-primary" href="./src/rooms-gallery.html">book from 110$</a>
+                    <Link to="/rooms_gallery" className="mt-1 btn btn-primary">Book From 110$</Link>
                     <div className="room-icons mt-4 pt-4">
                       <img src="./src/assets/img/5.svg" alt />
                       <img src="./src/assets/img/2.svg" alt />
@@ -156,7 +157,7 @@ const Search = () => {
                   <div className="room-box-in">
                     <h5 className>big Apartment</h5>
                     <p className="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-                    <a className="mt-1 btn btn-primary" href="rooms-gallery.html">book from 160$</a>
+                    <Link to="/rooms_gallery" className="mt-1 btn btn-primary">Book From 160$</Link>
                     <div className="room-icons mt-4 pt-4">
                       <img src="./src/assets/img/5.svg" alt />
                       <img src="./src/assets/img/2.svg" alt />

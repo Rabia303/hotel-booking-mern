@@ -146,7 +146,7 @@ const Header = () => {
               </Link>
             </li>
             <li style={dropdownItemStyle}>
-              <Link to="/search" style={dropdownLinkStyle}>
+              <Link to="/booking" style={dropdownLinkStyle}>
                 Search
               </Link>
             </li>
@@ -193,7 +193,7 @@ const Header = () => {
           <span style={linkStyle}>More</span>
           <ul style={activeDropdown === "more" ? visibleDropdownStyle : dropdownStyle}>
             <li style={dropdownItemStyle}>
-              <Link to="/testimonials" style={dropdownLinkStyle}>
+              <Link to="/test" style={dropdownLinkStyle}>
                 Testimonials
               </Link>
             </li>
@@ -203,7 +203,7 @@ const Header = () => {
               </Link>
             </li>
             <li style={dropdownItemStyle}>
-              <Link to="/terms" style={dropdownLinkStyle}>
+              <Link to="/tandc" style={dropdownLinkStyle}>
                 Terms & Conditions
               </Link>
             </li>

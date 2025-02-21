@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 const Rooms_gallery = () => {
   return (
    <>
@@ -201,7 +202,8 @@ const Rooms_gallery = () => {
                   </div>
                 </div>
                 <div className="col-12 pt-4">
-                  <a className="booking-button" href="./src/search.html">book now</a>
+                <Link to="/booking" className="booking-button">Book Now</Link>
+                  
                 </div>
               </div>
             </div>
